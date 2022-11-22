@@ -104,9 +104,9 @@ export const Contacts = () => {
                   color="grey2"
                   type="body2"
                   target="_blank"
-                  href={userData.linkedinUser}
+                  href={`https://linkedin.com/in/${userData.linkedinUser}`}
                 >
-                  Go to Telegram Now
+                  Go to LinkedIn Now
                 </Text>
               </ContactCardContent>
             </ContactCard>
